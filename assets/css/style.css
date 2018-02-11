@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: white; 
+}
+
+h2 {
+    color: #4aaaa5; 
+}
+
+header {
+    height: 80px; 
+    width: 100%; 
+    background-color: #ffffff; 
+    overflow: hidden; 
+    border-style: hidden hidden solid hidden; 
+    border-color: #dddddd;
+    border-width: 1px; 
+}  
+
+#title {
+    float: left; 
+    background-color: #4aaaa5; 
+    height: 80px;
+    margin: 0 3% 0 10%; 
+    padding: 10px;
+    width: 220px;
+    text-align: center; 
+}
+
+#nav {
+    float: right; 
+    margin: 0 10% 0 0; 
+    height: 80px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #777777; 
+
+}
+
+li {
+    text-align: center; 
+    float: left; 
+    
+}
+
+li a {
+    display: table-cell; 
+    vertical-align: middle; 
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+}
+
+li a:hover {
+    background-color: #4aaaa5; 
+    color: white;
+
+}
+
+#content {
+    height: 800px; 
+    width: 100%; 
+    clear: both; 
+    padding: 10px; 
+    background-color: #d1d0d0; 
+    color: #777777; 
+
+}
+
+#about {
+    height: 400px;
+    width: 650px;
+    background-color: #ffffff; 
+    margin: 20px 10px 20px 10%; 
+    float: left; 
+    padding: 20px;
+    border-radius: 10px; 
+
+
+}
+
+#profile_img {
+    height: 180px;
+    width: 160px;
+    margin: 10px;
+    position: relative;
+    float: left; 
+}
+
+#about p {
+    margin: 10px; 
+}
+
+#side_bar {
+    height: 200px;
+    width: 270px;
+    background-color: #ffffff; 
+    margin: 20px 10px 20px 10%; 
+    padding: 10px;
+    float: left; 
+    text-align: center; 
+    border-radius: 10px; 
+
+
+}
+
+.connect_img {
+    height: 60px;
+    width: 60px;
+    margin: 10px; 
+}
+
+footer {
+    background-color: #666666; 
+    color: white; 
+    clear: both; 
+    height: 80px; 
+    text-align: center; 
+    padding: 30px;
+    border-style: solid hidden hidden hidden; 
+    border-color: #4aaaa5;
+    border-width: 5px; 
+}
