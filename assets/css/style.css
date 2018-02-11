@@ -4,6 +4,7 @@
     line-height: 1.5;
     box-sizing: border-box; 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-image: url("assets/images/wormz.png");
 }
 
 h1 {
@@ -28,7 +29,7 @@ header {
     float: left; 
     background-color: #4aaaa5; 
     height: 80px;
-    margin: 0 3% 0 10%; 
+    margin: 0 2% 0 10%; 
     padding: 10px;
     width: 220px;
     text-align: center; 
@@ -70,37 +71,14 @@ li a:hover {
 }
 
 #content {
-    height: 800px; 
+    height: 1100px; 
     width: 100%; 
     clear: both; 
     padding: 10px; 
     background-color: #d1d0d0; 
     color: #777777; 
+    background-image: url("assets/images/concrete-texture.png");
 
-}
-
-#about {
-    height: 400px;
-    width: 650px;
-    background-color: #ffffff; 
-    margin: 20px 10px 20px 10%; 
-    float: left; 
-    padding: 20px;
-    border-radius: 10px; 
-
-
-}
-
-#profile_img {
-    height: 180px;
-    width: 160px;
-    margin: 10px;
-    position: relative;
-    float: left; 
-}
-
-#about p {
-    margin: 10px; 
 }
 
 #side_bar {
@@ -120,6 +98,13 @@ li a:hover {
     height: 60px;
     width: 60px;
     margin: 10px; 
+    border-radius: 5px; 
+}
+
+.connect_img:hover {
+    box-shadow: 5px 5px 10px #4aaaa5; 
+    /* box-shadow: 0 4px 8px 0 #4aaaa5, 0 6px 20px 0; */
+    transition: 2s; 
 }
 
 footer {
@@ -133,3 +118,157 @@ footer {
     border-color: #4aaaa5;
     border-width: 5px; 
 }
+
+/* ABOUT PAGE */
+#about {
+    height: 400px;
+    width: 650px;
+    background-color: #ffffff; 
+    margin: 20px 10px 20px 10%; 
+    float: left; 
+    padding: 20px;
+    border-radius: 10px; 
+
+
+}
+
+#profile_img {
+    height: 190px;
+    width: 160px;
+    margin: 10px;
+    position: relative;
+    float: left; 
+}
+
+#about p {
+    margin: 10px; 
+}
+
+
+/* PORTFOLIO PAGE */
+#portfolio {
+    height: 800px;
+    width: 650px;
+    background-color: #ffffff; 
+    margin: 20px 10px 20px 10%; 
+    float: left; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+
+.portfolio_img {
+    height: 198px;
+    width: 198px;
+    z-index: 1;
+
+}
+
+.portfolio_banner {
+    height: 40px; 
+    width: 200px;
+    /* opacity: .9;  */
+    display: block; 
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: white; 
+    font-size: 15px;
+    text-align: center; 
+    z-index: 2;
+    position: absolute; 
+    bottom: 15px; 
+}
+
+#portfolio_box1 {
+    height: 200px;
+    width: 200px;
+    float: left; 
+    position: relative; 
+    bottom: -10px; 
+    box-shadow: 5px 5px 10px #4aaaa5;
+    margin: 20px 50px; 
+}
+
+#portfolio_box2 {
+    height: 200px;
+    width: 200px;
+    float: left; 
+    position: relative; 
+    bottom: -10px; 
+    box-shadow: 5px 5px 10px #4aaaa5;
+    margin: 20px 50px; 
+}
+
+ #portfolio_box3 {
+    height: 200px;
+    width: 200px;
+    float: left; 
+    position: relative; 
+    bottom: -10px; 
+    box-shadow: 5px 5px 10px #4aaaa5;
+    margin: 20px 50px; 
+}
+
+#portfolio_box4 {
+    height: 200px;
+    width: 200px;
+    float: left; 
+    position: relative; 
+    bottom: -10px; 
+    box-shadow: 5px 5px 10px #4aaaa5;
+    margin: 20px 50px; 
+}
+
+ #portfolio_box5 {
+    height: 200px;
+    width: 200px;
+    float: left; 
+    position: relative; 
+    bottom: -10px; 
+    box-shadow: 5px 5px 10px #4aaaa5;
+    margin: 20px 50px; 
+} 
+
+
+/* CONTACT PAGE */
+#contact {
+    height: 450px;
+    width: 650px;
+    background-color: #ffffff; 
+    margin: 20px 10px 20px 10%; 
+    float: left; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+input[type="text"] {
+    width: 200px; 
+    height: 30px;
+    padding: 10px 0;
+    outline: none;
+}
+
+input[type="email"] {
+    width: 200px; 
+    height: 30px;
+    padding: 10px 0;
+    outline: none;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    resize: none; 
+}
+
+input[type="submit"] {
+    background-color: #4aaaa5; 
+    color: white; 
+    border: 1px solid white;
+    width: 100px; 
+    padding: 10px 0;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #2e6b68; 
