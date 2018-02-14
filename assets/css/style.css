@@ -8,11 +8,25 @@
 
 h1 {
     color: white; 
+    font-size: 30px; 
+    font-weight: bold; 
+    line-height: 1.8; 
 }
 
 h2 {
     color: #4aaaa5; 
+    font-size: 25px;
+    font-weight: bold; 
+    line-height: 1.8; 
 }
+
+h3 {
+    color: white; 
+    font-size: 20px; 
+    font-weight: bold; 
+    line-height: 1.6; 
+}
+
 
 header {
     height: 80px; 
@@ -155,6 +169,7 @@ footer {
 
 #about p {
     margin: 10px; 
+    line-height: 1.5; 
 }
 
 
@@ -214,6 +229,12 @@ footer {
     border-radius: 10px; 
 }
 
+form {
+    line-height: 1.6; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 input[type="text"] {
     width: 200px; 
     height: 30px;
@@ -239,7 +260,9 @@ input[type="submit"] {
     color: white; 
     border: 1px solid white;
     width: 100px; 
-    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    padding: 6px 0;
     outline: none;
 }
 
