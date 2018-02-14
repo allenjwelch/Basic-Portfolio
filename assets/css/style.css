@@ -73,17 +73,38 @@ li a:hover {
     min-height: 100%;
 } */
 
+body {
+    position: relative; 
+}
+
 .content {
-    height: 1100px; 
-    /*position: absolute; 
+    /* height: 1100px;  */
+    /* position: absolute; 
     min-height: 100%;
     margin-bottom: -80px;  */
+    float: left;
     width: 100%; 
     clear: both; 
     padding: 10px; 
     /* background-color: #d1d0d0;  */
     color: #777777; 
     background-image: url("../images/cork-wallet.png");
+}
+
+footer {
+    background-color: #666666; 
+    color: white; 
+    clear: both; 
+    height: 80px; 
+    /* margin-bottom: 100px;  */
+    text-align: center; 
+    padding: 30px;
+    border-style: solid hidden hidden hidden; 
+    border-color: #4aaaa5;
+    border-width: 5px; 
+    /* position: absolute; 
+    bottom: 0; 
+    left: 0;  */
 }
 
 #side_bar {
@@ -111,18 +132,7 @@ li a:hover {
     transition: 2s; 
 }
 
-footer {
-    background-color: #666666; 
-    color: white; 
-    clear: both; 
-    height: 80px; 
-    margin-bottom: -80px; 
-    text-align: center; 
-    padding: 30px;
-    border-style: solid hidden hidden hidden; 
-    border-color: #4aaaa5;
-    border-width: 5px; 
-}
+
 
 /* ABOUT PAGE */
 #about {
